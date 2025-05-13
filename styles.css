@@ -5,14 +5,13 @@ body {
     font-family: Arial;
 
 }
-img {
-    width: 100px;
-}
+/* HERO */
+
 
 #hero {
     margin: 0;
-    background-image: url("images/banner.jpg");
-    /* background-position: center 100%; */
+    background-image: url("images/banner.webp");
+    background-position: center 100%;
     height: 400px;
     display: flex;
     flex-direction: column;
@@ -23,14 +22,75 @@ img {
 }
 #hero h1 {
     margin: 0;
-    background-color: #A1917C;
+    background-color: #375948;
     padding: 5px 12px;
     border-radius: 10px;
 
 }
 #hero h2 {
-    background-color: #A1917C;
+    background-color: #2A460F;
     padding: 5px 28px;
     border-radius: 10px;
 
+}
+
+
+/* ACTIVITIES */
+
+
+#activities {
+    background-image: linear-gradient(#2A460F,#375948);
+    height: 378px;
+    border: 2px solid #1E2906;
+}
+#activities-heading{
+    margin:0;
+    padding: 39px 0px 54px 0px;
+}
+
+#activities-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.activities-section-element {
+    width: 200px;
+}
+
+.activities-section-element-img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+
+}
+
+.activities-section-element-heading{
+    font-weight: 700;
+}
+
+
+/* GUIDE SECTION */
+
+#guide {
+    display: flex;
+    background-color: #375948;
+    width: 400px;
+    height: 300px;
+    margin: 20px auto;
+    border-radius: 10px;
+    border-bottom: 10px solid #1E2906;
+    align-items: center;
+    color: white;
+    padding: 10px;
+
+}
+
+#guide-img{
+    width: 180px;
+    height: 250px;
+    border-radius: 10px;
+    padding-right: 7px;
+}
+#guide-info {
+    font-style: italic;
 }
